@@ -72,7 +72,14 @@ Example: A customer thinks they may have $5 of EC2 usage from January. On Februa
     * The accounts that had "negative totals" will show Intra-Organization Adjustments as debits that bring the line's balance to zero.
     * The positive line accounts will show a pro-rated credit as Intra-Organization Adjustments.
 
-**CSV Export:**
+**CSV Exports:**
+
+* CenturyLink Billing Cycle
+* Vendor Billing Cycle
+* RI Validation Report
+
+
+Users may receive a CSV export of Usage History either in the CenturyLink Billing Cycle or - after the 10th of the month - the Vendor Billing Cycle. 
 
 Users may export the following .csv from the top navigation bar.
 
@@ -94,3 +101,17 @@ Letter In Image | Name  | Description  | Notes
  L  | On Your Invoice  | Contains line item totals for which you are charged on your invoice.  |   
  M | Supporting Detail  | Item detail totals that add up to the "On your Invoice" totals.  |  
  N  | Adjustments  | See above. CenturyLink provides visibility into what adjustments are made to ensure fairness of charges.  |   
+ 
+ **The RI Validation Report**
+ This gives you the most visibility into Reserved Instances which you purchased and Reserved Instances other customers purchased which affected your account. See above regarding CenturyLink's fair treatment of reserved instances in a shared environment.
+ 
+ Header | Description
+--- | ---
+Usage Account | The account where the instance that consumes the RI discount is located
+RI Owner | The account where the RI was purchased. No data will be provided to identify other CTL Customers.
+Sku | Tells whether it was an RI for IaaS or SaaS product. EC2s are currently the only IaaS.
+Product Code | What product the RI supports
+Region | What region the product is/was located
+Arn | This is the identifier of the RI on the owner account. No data will be provided to identify other CTL Customers.
+Amount | On-demand usage charged to the using-account. Please see details above about Inter-Customer Adjustments and Intra-Organization Adjustments
+Credit | On-demand usage credited to the owning account
