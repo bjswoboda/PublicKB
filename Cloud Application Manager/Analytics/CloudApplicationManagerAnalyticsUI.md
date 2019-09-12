@@ -1,6 +1,6 @@
 {{{
   "title": "CenturyLink Cloud Optimization Introduction",
-  "date": "09-05-19",
+  "date": "09-12-19",
   "author": "Ben Swoboda",
   "attachments": [],
   "contentIsHTML": false
@@ -15,7 +15,7 @@ This document describes how to gain access to Analytics and provides a breakdown
 One of the following use cases must have occurred successfully:
 * The provider is enabled for [Managed Services](https://www.ctl.io/knowledge-base/cloud-application-manager/managed-services/#1)
 * The provider is enabled for [Cloud Optimization](https://www.ctl.io/knowledge-base/cloud-application-manager/cloud-optimization/#1)
-* The provider is no Optimized or Managed, but enabled for Analytics. (See below)
+* The provider is not Optimized or Managed, but is enabled for Analytics. (See below)
 
 ### Important Information
 * After you activate Analytics for providers for which you pay the vendor directly, CenturyLink will read your Provider's charges in our calculation of Platform Advisory Support
@@ -32,7 +32,7 @@ One of the following use cases must have occurred successfully:
 Switching the flag to ON after you start the provider means CenturyLink will read your Provider's charges in our calculation of Platform Advisory Support. A CAM administrator will have access to pricing details in that Management Site of CAM.  It will give you access to:
 
 * All the reporting described in this document
-* An assigned TAM that will cover your Provider environment in addition to the CAM tools and features like Application Lifecycle Management and Analytics.
+* An assigned Technical Account Manager (TAM) who will cover your Provider environment in addition to the CAM tools and features like Application Lifecycle Management and Analytics.
 
 Leaving the flag OFF at the time you start the provider means Platform Advisory Support only covers your ALM instance fees.
 
